@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Daily Status Report</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+       <div class="container">
+       
+        <form action="dsrformconnect.php" method="post" >
+            <header>
+                <img src="ust.jpeg" alt="UST Global" style="height: 70px;" width="70px">
+                <h1 style="margin-top: 10px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Daily Status Report - DSR </h1>
+            </header>
+            <div class="form-first">
+<div class="fields"> 
+
+<div class="input-field">
+    <label> Your WWID</label>
+        <input type="text" name="wwid" placeholder="Enter your WWID" >
+</div>
+
+<div class="input-field">
+    <label> Your Name</label>
+        <input type="text" name="name" placeholder="Enter your Name" >
+</div>
+
+<div class="input-field">
+    <label> Date </label>
+        <input type="date" name="ww" placeholder="Enter the Date" >
+</div>
+        </div>
+       </div>
+       <div class="form first">
+        <div class="fields"> 
+        
+        <div class="input-field">
+            <label> Your Domain</label>
+            <input type="text" name="workdone" placeholder="Enter your Domain" >
+        </div>
+        
+        <div class="input-field">
+            <label> Your Work Done</label>
+            <input type="text" name="workdone" placeholder="QAC / GC / BKC" >
+        </div>
+        
+        <div class="input-field">
+            <label> Work Week </label>
+                <input type="week" name="siva" placeholder="Enter your Workweek Number" >
+        </div>
+                </div>
+               </div>
+               <div class="form first">
+                <div class="fields"> 
+                
+                <div class="input-field">
+                    <label> Pass Count</label>
+                        <input type="text" name="pass" placeholder="Enter your Pass Count" >
+                </div>
+                
+                <div class="input-field">
+                    <label> Fail Count </label>
+                        <input type="text" name="fail" placeholder="Enter your Fail Count" >
+                </div>
+                
+                <div class="input-field">
+                    <label> Re-run Count </label>
+                        <input type="text" name="rerun" placeholder="Enter your Re-run Count" >
+                </div>
+                        </div>
+                        </div>
+                        <div class="form first">
+                            <div class="fields"> 
+                        <button class="submit">
+                            Submit
+                        </button>
+                       </div>
+        </div>
+    </div>   
+        </form>
+
+       </div>
+    </body>
+    </html>
